@@ -7,7 +7,7 @@ const app = express();
 // ---- Middleware ----
 const allowedOrigins = [
   `http://localhost:8080`,
-  `https://test-edu-7s2gky931-sethhyyys-projects.vercel.app`
+  `https://test-edu-id.vercel.app`
 ].filter(Boolean);
 
 app.use(
